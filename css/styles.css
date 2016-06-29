@@ -1,6 +1,31 @@
 body {
-	background-color: #398BAA;
+	background-color: #D69E0E;
 }
+/* Nav Bar */
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E2C782;
+}
+.nav li {
+	float: left;
+}	
+.nav li a { 
+display: inline-block;
+color: blue;
+text-align: center;
+padding: 14px 16px; text-decoration: none;
+}
+a:hover {
+	color: red;
+	border: 4px dashed green;
+	text-align: justify;
+	background-color: #D8CAA6;
+}
+
+
 /* css for CSS Playground. */
 .body {
   background-color: #398BAA;
@@ -92,4 +117,13 @@ body {
   left: 18px;
   top: ;
   margin: 0px 0px 0px 0px;  
+}
+/* Create 6 Shapes */
+#col-sm-4 {
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+.project {
+
 }
